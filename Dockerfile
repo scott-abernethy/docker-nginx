@@ -1,8 +1,6 @@
 # Dockerfile for scottabernethy/nginx
 FROM scottabernethy/debian
 
-# No mainline version exists for jessie at present, use wheezy version instead.
-
 ENV NGINX_VERSION 1.9.0-1~jessie
 
 RUN \
